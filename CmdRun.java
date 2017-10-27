@@ -7,6 +7,7 @@ public class CmdRun {
 	public static void main(String[] arg) {
 		try 
 		{ 
+		// command is D:\pintu\ExecuterTestTry1111.exe
 		Process p=Runtime.getRuntime().exec("cmd /c D:\\pintu\\ExecuterTestTry1111.exe"); 
 		p.waitFor(); 
 		BufferedReader reader=new BufferedReader(new InputStreamReader(p.getInputStream())); 
